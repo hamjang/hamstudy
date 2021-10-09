@@ -29,6 +29,15 @@ body{
     margin: 0px auto;
     max-width: 980px;
 }
+#link {border: 3px solid MediumSeaGreen;
+   padding: 5px 5px;
+   margin: 0px auto;
+   border-bottom: 3px;
+}
+#login {border: 3px solid MediumSeaGreen;
+    padding: 5px 5px;
+    border-top: 3px;
+ }
 section{display: flex;}
 article{width: 75%;}
 aside{width: 25%;}
