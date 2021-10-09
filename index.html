@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome Seunghun's home </title>
+    <link rel="stylesheet" href="./css/w3.css">
+    <link rel="stylesheet" href="./css/style.index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <header>
+        <img src="./my image/logo.png" alt="me" width="150px" height="150px">
+        <h1>Seunghun Site</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#about">about</a></li>
+            <li><a href="#profile">profile</a></li>
+            <li><a href="#portfolio">portfolio</a></li>
+            <li><a href="#contact">contact</a></li>
+        </ul>
+    </nav>
+    <section>
+        <article>
+            <div id="photo">
+                <img src="./my image/me.jpg" alt="me" width="250px" height="250px">
+                <h2 style="font-size: x-large; color:#FF8C00;"> life music</h2>
+                <audio autoplay src="./media/music01.mp3" controls></audio>
+                <hr>
+                <h2 style="font-size: x-large; color:#FF8C00;"> 지리산 반달가슴곰 ( my favorite animal ) </h2>
+                <video width="30%" height="30%" controls autoplay loop src="./media/movie.mp4"></video>
+                <hr>
+                <h2 style="font-size: x-large; color:#FF8C00;"> 가장 좋아하는 축구선수 ( higtlight )</h2>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/g2tUu7nVO48" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <hr>
+                <iframe src="start.html" frameborder="0" width="70%" height="240px">
+                    지원되지 않는 브라우저 입니다.
+                </iframe>
+            </div>
+            <hr>
+            <div id="profile" >
+                <h2 style="font-size: x-large; color:#FF8C00;">seunghun profile</h2>
+                <table class="w3-table-all w3-hoverable">
+                    <tr class="w3-lime">
+                        <th>일자</th>
+                        <th>내용</th>
+                        <th>구분</th>
+                    </tr>
+                    <tr>
+                        <td>현재</td>
+                        <td>동아대 경영정보학과 재학</td>
+                        <td>2학년</td>
+                    </tr>
+                    <tr>
+                        <td>18.8 ~ 20.3</td>
+                        <td>12사단에서 군 복무</td>
+                        <td>육군 만기 전역</td>
+                    </tr>
+                    <tr>
+                        <td>20.5 ~ 21.2</td>
+                        <td>아마스빈 알바</td>
+                        <td>펄 진짜 싫어함</td>
+                    </tr>
+                </table> 
+             </div>
+        </article>
+        <aside>
+            <div id="link">
+                <p class="w3-xlarge w3-deep-orange w3-center">바로가기</p>
+                <!-- 문서간의 이동 -->
+                <a href="http://www.donga.ac.kr" target="_blank">동아대학교</a> <br>
+                <a href="http://www.naver.com" target="_self">네이버</a> <br>
+                <!-- 문서내 이동-->
+                <a href="#photo"> 프로필 사진 이동</a>
+            </div>
+            <div id="login">
+                <p class="w3-xlarge w3-deep-orange w3-center">로그인</p>
+                <form action="#" method="POST">
+                    아이디 : <input type="text" name="Name 입력" class="w3-input">
+                    <br>
+                    비밀번호 : <input type="password" name="Pass 입력" class="w3-input">
+                    <br>
+                    <input type="submit" value="확인" class="w3-btn w3-amber">
+                    <input type="reset" value="취소" class="w3-btn w3-amber">
+                </form>
+            </div>
+        </aside>
+    </section>
+    <br>
+    <footer class="w3-amber">&copy; Seunghun
+        <div class="w3-row">
+            <div class="w3-col s4 w3-container">
+                <h5> Contact Us </h5>
+                <ul>
+                    <li> phone : 010-5648-5321</li>
+                    <li> E-mail : ericham321@naver.com</li>
+                    <li> Address : 부산시 사하구 ***</li>
+                </ul>
+            </div>
+            <div class="w3-col s4 w3-container">
+                <h5> Follow Us </h5>
+                <a href="https://github.com/hamjang/hamstudy"><i class="fa fa-github-alt" style="font-size: 30px;"></i></a>
+                <a href="https://www.instagram.com/hi.hxxn/?hl=ko"><i class="fa fa-instagram" style="font-size: 30px;"></i></a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
