@@ -7,7 +7,7 @@
     <title>Welcome Seunghun's home </title>
     <link rel="stylesheet" href="./css/w3.css">
     <link rel="stylesheet" href="./css/style.index.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
     <header>
@@ -42,8 +42,8 @@
             <hr>
             <div id="profile" >
                 <h2 style="font-size: x-large; color:#FF8C00;">seunghun profile</h2>
-                <table border="1">
-                    <tr>
+                <table class="w3-table-all w3-hoverable">
+                    <tr class="w3-lime">
                         <th>일자</th>
                         <th>내용</th>
                         <th>구분</th>
@@ -72,7 +72,6 @@
                 <!-- 문서간의 이동 -->
                 <a href="http://www.donga.ac.kr" target="_blank">동아대학교</a> <br>
                 <a href="http://www.naver.com" target="_self">네이버</a> <br>
-                <a href="start.html">start page</a> <br>
                 <!-- 문서내 이동-->
                 <a href="#photo"> 프로필 사진 이동</a>
             </div>
@@ -91,10 +90,21 @@
     </section>
     <br>
     <footer class="w3-amber">&copy; Seunghun
-        <div id="home">부산시 사하구 동매로 18, 802호</div>
-        <div id="num">010-5648-5321</div>
-        <div id="email">ericham321@naver.com</div>
-        <div id="sns">SNS : hi.hxxn(insta) </div>
+        <div class="w3-row">
+            <div class="w3-col s4 w3-container">
+                <h5> Contact Us </h5>
+                <ul>
+                    <li> phone : 010-5648-5321</li>
+                    <li> E-mail : ericham321@naver.com</li>
+                    <li> Address : 부산시 사하구 ***</li>
+                </ul>
+            </div>
+            <div class="w3-col s4 w3-container">
+                <h5> Follow Us </h5>
+                <a href="https://github.com/hamjang/hamstudy"><i class="fa fa-github-alt" style="font-size: 30px;"></i></a>
+                <a href="https://www.instagram.com/hi.hxxn/?hl=ko"><i class="fa fa-instagram" style="font-size: 30px;"></i></a>
+            </div>
+        </div>
     </footer>
 </body>
 </html>
